@@ -177,3 +177,18 @@ let g:ale_lint_on_enter = 0
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=0
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => taglist
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let Tlist_Show_One_File=1
+let Tlist_Exit_OnlyWindow=1
+"let Tlist_Ctags_Cmd=tags
+map <leader>to :TlistToggle<cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => supertab
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"let g:SuperTabDefaultCompletionType="context"
+"let g:SuperTabDefaultCompletionType="<c-n>"
