@@ -140,12 +140,14 @@ set autochdir
 syntax enable 
 
 " Enable 256 colors palette in Gnome Terminal
-if $COLORTERM == 'gnome-terminal'
-    set t_Co=256
-endif
+"if $COLORTERM == 'gnome-terminal'
+"    set t_Co=256
+"endif
+
+let g:solarized_termcolors=256
 
 try
-    colorscheme desert
+    colorscheme solarized
 catch
 endtry
 

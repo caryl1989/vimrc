@@ -185,7 +185,7 @@ nnoremap <silent> <leader>d :GitGutterToggle<cr>
 let Tlist_Show_One_File=1
 let Tlist_Exit_OnlyWindow=1
 "let Tlist_Ctags_Cmd=tags
-map <leader>to :TlistToggle<cr>
+map <leader>tt :TlistToggle<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => supertab
